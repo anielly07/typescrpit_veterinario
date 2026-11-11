@@ -3,9 +3,9 @@ import Veterinario from "./Veterinario";
 
 export default class Consulta {
   constructor(
-    public readonly animal: Animal,
-    public readonly veterinario: Veterinario,
-    public readonly data: Date,
+    public  animal: Animal,
+    public  veterinario: Veterinario,
+    public  data: Date,
     public observacoes = ""
   ) {
     if (!animal || !veterinario) {

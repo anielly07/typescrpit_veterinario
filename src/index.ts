@@ -32,4 +32,4 @@ clinicaMarta.listarAnimaisECuidados();
 clinicaMarta.exibirFolhaBonus();
 
 draAna.atualizarSalario(5500);
-console.log(` \nNovo salário da Dra. Ana: R$ ${draAna.salario.toFixed(2)}`);
+console.log(` \ Novo salário da Dra. Ana: R$ ${draAna.salario.toFixed(2)}`);

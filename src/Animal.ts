@@ -8,7 +8,31 @@ export default abstract class Animal {
     this.idade = idade;
     this.tutor = tutor;
   }
+ 
+ public getnome() : string {
+  return this.nome
+ }
 
+ public setnome(nome) {
+  this.nome = nome;
+ }
+
+ public getidade() : number{
+  return this.idade
+ }
+
+  public setidade(idade){
+    this.idade=idade
+  }
+
+  public gettutor():string{
+    retutrn this.tutor
+  }
+
+  public settutor(tutor){
+    this.tutor=tutor 
+  }
+ 
   abstract emitirSom(): string;
 
   abstract descreverCuidados(): string;
